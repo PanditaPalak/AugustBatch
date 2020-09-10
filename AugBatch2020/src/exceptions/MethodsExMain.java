@@ -7,7 +7,7 @@ public class MethodsExMain {
 
 		MethodsEx object = new MethodsEx();
 		
-		object.method4();
+		object.method1();
 		System.out.println("in main");
 	}
 

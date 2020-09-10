@@ -17,13 +17,13 @@ public class MethodsEx {
 		int num2 = sc.nextInt();
 		
 		int result=0;
-		try {	
-			
+	
+		try {
 			result = num1 / num2;
 		}
 		catch (ArithmeticException e) {
-			// TODO: handle exception
-			System.out.println("Infinite");
+			
+			e.printStackTrace();
 		}
 		System.out.println("Result is: "+result);	
 		System.out.println("in method1");
