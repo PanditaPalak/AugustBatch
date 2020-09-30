@@ -5,8 +5,8 @@ public Demo() {
 	// TODO Auto-generated constructor stub
 }public static void main(String[] args)
 
-{     TesdtDemo td =new TesdtDemo();
-		td.stackDemo();
+{     ArrayDemo ar = new ArrayDemo();
+ar.demo();
 	
 }
 }
